@@ -11,9 +11,11 @@ body {
   text-align: center;
   font-family: Helvetica;
   color: #9AA9C8;
+  z-index: 0;
 }
 
 .option:hover {
   background-color: #005dff;
   color: white;
+  z-index: 3;
 }

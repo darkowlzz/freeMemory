@@ -4,6 +4,9 @@ const COMPLETED = "completed";
 const GC = "GC";
 const CC = "CC";
 const MM = "MM";
+const CLICKED = "clicked";
+
+const aboutMemory = "about:memory";
 
 /**
  * Define onclick events on all the divs and
@@ -26,5 +29,6 @@ mm_div.onclick = function() {
 
 var about_div = document.getElementById("aboutmemory");
 about_div.onclick = function() {
-  window.open("about:memory");
+  self.port.emit(CLICKED);
+  window.open(aboutMemory);
 }
