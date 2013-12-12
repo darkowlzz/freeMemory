@@ -1,6 +1,6 @@
 {
-  "name": "Free Memory",
-  "title": "freeMemory",
+  "name": "freememory",
+  "title": "Free Memory",
   "id": "jid1-n85lxPv1NAWVTQ",
   "description": "An add-on to perform Free memory operations without visiting about:memory.",
   "author": "Sunny (darkowlzz)",
