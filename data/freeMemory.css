@@ -1,0 +1,19 @@
+body {
+  background-color: white;
+}
+
+.option {
+  font-size: 80%;
+  border-radius: 5px;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-family: Helvetica;
+  color: #9AA9C8;
+}
+
+.option:hover {
+  background-color: #005dff;
+  color: white;
+}
