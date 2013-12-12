@@ -25,15 +25,3 @@ var mm_button = document.getElementById("mm-button");
 mm_button.onclick = function() {
   self.port.emit(MM);
 }
-
-
-// Clear the status message.
-function clearMessage() {
-  message.textContent = "";
-}
-
-// A timeout to clear the status message after 2sec.
-self.port.on(COMPLETED, function(stat) {
-  message.textContent = stat;
-  window.setTimeout(clearMessage, 2000);
-});
