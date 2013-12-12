@@ -1,9 +1,9 @@
 {
-  "name": "freememory",
+  "name": "Free Memory",
   "title": "freeMemory",
   "id": "jid1-n85lxPv1NAWVTQ",
   "description": "An add-on to perform Free memory operations without visiting about:memory.",
   "author": "Sunny (darkowlzz)",
   "license": "MPL 2.0",
-  "version": "0.1"
+  "version": "0.3"
 }
