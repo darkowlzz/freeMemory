@@ -1,24 +1,20 @@
+<!DOCTYPE html>
 <html>
 <head>
-  <style type="text/css">
-    .message {
-      font-size: 80%;
-      margin-top: 0px;
-    }
-
-    hr {
-      margin-bottom: 4px;
-    }
-  </style>
+  <link rel="stylesheet" type="text/css" href="freeMemory.css"/>
 </head>
 <body>
-  <button id="gc-button">GC</button>
-  <button id="cc-button">CC</button>
-  <button id="mm-button">MM</button>
-  <br>
-  <hr>
-  <div id="msg" class="msg">
-    <p style="font-size: "id="message" class="message"></p>
+  <div class="option" id="gc">
+    <span>Garbage Collection</span>
+  </div>
+  <div class="option" id="cc">
+    <span>Cycle Collection</span>
+  </div>
+  <div class="option" id="mm">
+    <span>Memory Minimization</span>
+  </div>
+  <div class="option" id="aboutmemory">
+    <span>about:memory</span>
   </div>
 </body>
 </html>
