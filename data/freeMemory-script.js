@@ -1,10 +1,11 @@
 // Magical constants.
-const COMPLETED = "completed";
-
 const GC = "GC";
 const CC = "CC";
 const MM = "MM";
+
+const COMPLETED = "completed";
 const CLICKED = "clicked";
+const OPEN = "open";
 
 const aboutMemory = "about:memory";
 
@@ -33,7 +34,7 @@ about_div.onclick = function() {
   window.open(aboutMemory);
 }
 
-self.port.on("open", function() {
-  var foc = document.getElementById("gc");
-  foc.focus();
+self.port.on(OPEN, function() {
+  var opt = document.getElementById("gc");
+  opt.focus();
 });
