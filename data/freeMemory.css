@@ -18,4 +18,5 @@ body {
   background-color: #005dff;
   color: white;
   z-index: 3;
+  cursor: pointer;
 }
