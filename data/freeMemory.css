@@ -10,7 +10,6 @@ body {
   padding-bottom: 10px;
   text-align: center;
   font-family: Helvetica;
-  color: #9AA9C8;
   z-index: 0;
 }
 
@@ -19,4 +18,28 @@ body {
   color: white;
   z-index: 3;
   cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+  color: #9AA9C8;
+}
+
+a:hover, a:focus {
+  background-color: #005dff;
+  color: white;
+  cursor: pointer;
+}
+
+ul {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  cursor: none;
 }

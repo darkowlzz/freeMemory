@@ -32,3 +32,8 @@ about_div.onclick = function() {
   self.port.emit(CLICKED);
   window.open(aboutMemory);
 }
+
+self.port.on("open", function() {
+  var foc = document.getElementById("gc");
+  foc.focus();
+});
