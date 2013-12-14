@@ -5,5 +5,12 @@
   "description": "An add-on to perform Free memory operations without visiting about:memory.",
   "author": "Sunny (darkowlzz) <indiasuny000@gmail.com>",
   "license": "MPL 2.0",
-  "version": "0.6"
+  "version": "0.6",
+
+  "preferences": [{
+    "name": "hotkey",
+    "type": "bool",
+    "title": "Hotkey (Alt + M)",
+    "value": true
+  }]
 }
