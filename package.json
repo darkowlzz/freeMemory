@@ -9,8 +9,23 @@
 
   "preferences": [{
     "name": "hotkey",
+    "description": "Enable or Disable hotkeys",
     "type": "bool",
     "title": "Hotkey (Alt + M)",
     "value": true
+  },
+  {
+    "name": "height",
+    "description": "Set height of the panel",
+    "type": "integer",
+    "title": "Panel Height",
+    "value": 160
+  },
+  {
+    "name": "width",
+    "description": "Set width of the panel",
+    "type": "integer",
+    "title": "Panel Width",
+    "value": 170
   }]
 }
