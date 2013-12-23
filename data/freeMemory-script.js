@@ -6,6 +6,7 @@ const MM = "MM";
 const COMPLETED = "completed";
 const CLICKED = "clicked";
 const OPEN = "open";
+const HELP = "HELP";
 
 const aboutMemory = "about:memory";
 
@@ -37,7 +38,7 @@ about_div.onclick = function() {
 var help_div = document.getElementById("help");
 help_div.onclick = function() {
   self.port.emit(CLICKED);
-  self.port.emit("HELP");
+  self.port.emit(HELP);
 }
 
 self.port.on(OPEN, function() {
