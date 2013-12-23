@@ -19,7 +19,7 @@
     "description": "Set height of the panel",
     "type": "integer",
     "title": "Panel Height",
-    "value": 160
+    "value": 185
   },
   {
     "name": "width",
