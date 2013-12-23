@@ -34,6 +34,12 @@ about_div.onclick = function() {
   window.open(aboutMemory);
 }
 
+var help_div = document.getElementById("help");
+help_div.onclick = function() {
+  self.port.emit(CLICKED);
+  self.port.emit("HELP");
+}
+
 self.port.on(OPEN, function() {
   var opt = document.getElementById("gc");
   opt.focus();
