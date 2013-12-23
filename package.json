@@ -27,5 +27,12 @@
     "type": "integer",
     "title": "Panel Width",
     "value": 170
+  },
+  {
+    "name": "timeout",
+    "description": "Timer for automatic memory clean up. Specify time in minutes.",
+    "type": "integer",
+    "title": "Timer",
+    "value": 0
   }]
 }
