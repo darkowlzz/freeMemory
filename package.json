@@ -15,6 +15,38 @@
     "value": true
   },
   {
+    "name": "modifier",
+    "description": "Set a modifier key to use with the Hotkey",
+    "type": "menulist",
+    "title": "Modifier Key",
+    "value": "alt",
+    "options": [
+      {
+        "value": "shift",
+        "label": "shift"
+      },
+      {
+        "value": "alt",
+        "label": "alt"
+      },
+      {
+        "value": "control",
+        "label": "control"
+      },
+      {
+        "value": "accel",
+        "label": "accel"
+      }
+    ]
+  },
+  {
+    "name": "key",
+    "description": "Set a key to use in Hotkey",
+    "type": "string",
+    "title": "Key",
+    "value": "m"
+  },
+  {
     "name": "height",
     "description": "Set height of the panel",
     "type": "integer",
