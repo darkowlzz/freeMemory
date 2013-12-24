@@ -3,16 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <title>FreeMemory</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-  <h3>FreeMemory v1.0</h3>
-  <button id="picker">Pick</button>
-
-  <script>
-    var pic = document.getElementById("picker");
-    pic.addEventListener("click", function(){
-      alert("yes, it works!! \m/ ");
-    });
-  </script>
+  <h2>FreeMemory v1.0</h2>
+  <img src="freeMemory.png" alt="icon"/>
+  <br>
+  <section>
+  <h4>How do you use it?</h4>
+  <p>
+    FreeMemory comes with a lot of easy to reach ways to perform the memory minimization operations found in about:memory. <br><br>
+    1. Using the widget which appears on the add-on bar. <br>
+    <img src="widget.png" alt="widget panel" class="centeredImage"/> <br><br>
+    2. Using the hotkeys (ALT + M). <br>
+    <img src="hotkey.png" alt="hotkey panel" class="centeredImage"/> <br><br>
+  </p> 
+  <p>
+    In case there is a conflict in hotkeys, you could always enable/disable it.<br><br>
+    The add-on preference consists of a couple of powerful features which could help you customize freeMemory.<br><br>
+    <img src="pref.png" alt="add-on preference" class="centeredImage"/> <br><br>
+    1. Adjust panel height and width. <br>
+    2. Set a time interval and let freeMemory perform minimization automatically for you. <br>
+  </p>
+  </section>
 </body>
 </html>
