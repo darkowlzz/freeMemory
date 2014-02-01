@@ -5,18 +5,25 @@
   "description": "An add-on to perform Free memory operations without visiting about:memory.",
   "author": "Sunny (darkowlzz) <indiasuny000@gmail.com>",
   "license": "MPL 2.0",
-  "version": "0.8.1",
+  "version": "0.9",
 
   "preferences": [{
     "name": "hotkey",
-    "description": "Enable or Disable hotkeys",
+    "description": "Enable or Disable hotkeys.",
     "type": "bool",
     "title": "Hotkey (Alt + M)",
     "value": true
   },
   {
+    "name": "notify",
+    "description": "Disable or Enable notifications.",
+    "type": "bool",
+    "title": "Notifications",
+    "value": true
+  },
+  {
     "name": "modifier",
-    "description": "Set a modifier key to use with the Hotkey",
+    "description": "Set a modifier key to use with the Hotkey.",
     "type": "menulist",
     "title": "Modifier Key",
     "value": "alt",
@@ -41,21 +48,21 @@
   },
   {
     "name": "key",
-    "description": "Set a key to use in Hotkey",
+    "description": "Set a key to use in Hotkey.",
     "type": "string",
     "title": "Key",
     "value": "m"
   },
   {
     "name": "height",
-    "description": "Set height of the panel",
+    "description": "Set height of the panel.",
     "type": "integer",
     "title": "Panel Height",
     "value": 185
   },
   {
     "name": "width",
-    "description": "Set width of the panel",
+    "description": "Set width of the panel.",
     "type": "integer",
     "title": "Panel Width",
     "value": 170
