@@ -8,7 +8,7 @@ const CLICKED = "clicked";
 const OPEN = "open";
 const HELP = "HELP";
 
-const aboutMemory = "about:memory";
+const ABOUTMEMORY = "about:memory";
 
 /**
  * Define onclick events on all the divs and
@@ -16,32 +16,33 @@ const aboutMemory = "about:memory";
  */
 var gc_div = document.getElementById("gc");
 gc_div.onclick = function() {
-  self.port.emit(GC);
+  addon.port.emit(GC);
 }
 
 var cc_div = document.getElementById("cc");
 cc_div.onclick = function() {
-  self.port.emit(CC);
+  addon.port.emit(CC);
 }
 
 var mm_div = document.getElementById("mm");
 mm_div.onclick = function() {
-  self.port.emit(MM);
+  addon.port.emit(MM);
 }
 
 var about_div = document.getElementById("aboutmemory");
 about_div.onclick = function() {
-  self.port.emit(CLICKED);
-  window.open(aboutMemory);
+  addon.port.emit(CLICKED);
+  addon.port.emit(ABOUTMEMORY);
+  //window.open(aboutMemory);
 }
 
 var help_div = document.getElementById("help");
 help_div.onclick = function() {
-  self.port.emit(CLICKED);
-  self.port.emit(HELP);
+  addon.port.emit(CLICKED);
+  addon.port.emit(HELP);
 }
 
-self.port.on(OPEN, function() {
+addon.port.on(OPEN, function() {
   var opt = document.getElementById("gc");
   opt.focus();
 });
