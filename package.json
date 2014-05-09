@@ -11,7 +11,7 @@
     "name": "hotkey",
     "description": "Enable or Disable hotkeys.",
     "type": "bool",
-    "title": "Hotkey (Alt + M [Default])",
+    "title": "Hotkey (Alt + M [Default]) (Not for android)",
     "value": true
   },
   {
@@ -25,7 +25,7 @@
     "name": "modifier",
     "description": "Set a modifier key to use with the Hotkey.",
     "type": "menulist",
-    "title": "Modifier Key",
+    "title": "Modifier Key (Not for android)",
     "value": "alt",
     "options": [
       {
@@ -50,21 +50,21 @@
     "name": "key",
     "description": "Set a key to use in Hotkey.",
     "type": "string",
-    "title": "Key",
+    "title": "Key (Not for android)",
     "value": "m"
   },
   {
     "name": "height",
     "description": "Set height of the panel.",
     "type": "integer",
-    "title": "Panel Height",
+    "title": "Panel Height (Not for android)",
     "value": 185
   },
   {
     "name": "width",
     "description": "Set width of the panel.",
     "type": "integer",
-    "title": "Panel Width",
+    "title": "Panel Width (Not for android)",
     "value": 170
   },
   {
