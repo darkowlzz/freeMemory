@@ -58,7 +58,7 @@
     "description": "Set height of the panel.",
     "type": "integer",
     "title": "Panel Height (Not for android)",
-    "value": 185
+    "value": 220
   },
   {
     "name": "width",
